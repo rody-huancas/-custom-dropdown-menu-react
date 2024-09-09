@@ -1,7 +1,11 @@
+import Selector from './components/Selector'
+
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="bg-gray-900 font-Poppins flex  h-screen items-center justify-center">
+      <Selector />
+    </div>
+  );
+};
 
-export default App
+export default App;
